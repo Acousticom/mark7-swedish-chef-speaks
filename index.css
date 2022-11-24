@@ -1,0 +1,68 @@
+:root{
+    --primary-blue: #58F3D1;
+    --secondary-blue: #ade0e4;
+    --primary-lack: #212121;
+}
+
+body{
+    font-family: 'Rye', cursive;
+    margin: 0rem;
+    background: linear-gradient(#58F3D1,#ade0e4);
+}
+
+#txt-area{
+    width: 40%;
+    height: 20vh;
+    display: block;
+    margin: auto;
+    border: 2px solid var(--primary-lack);
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Rye', cursive;
+}
+
+.output-area{
+    border: 2px solid var(--primary-lack);
+    display: block;
+    width: 40%;
+    height: 20vh;
+    margin: auto;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    background-color: white;
+}
+
+.navigation{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0rem;
+    padding: 1rem;
+}
+
+
+#translate-btn{
+    padding: 1rem;
+    font-family: 'Rye', cursive;
+    border-radius: 0.5rem;
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-blue);
+    font-size: 1.5rem;
+}
+
+.footer-container{
+    
+    width: 40%;
+    font-size: 1.5rem;
+    display: block;
+    margin: auto;
+    text-align: justify;
+}
+
+.btn-translate{
+    display: flex;
+    justify-content: center;
+}
